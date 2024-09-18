@@ -1,23 +1,21 @@
 {
-    "name": "wdpf/gnsl2024",
-    "description": "Multivendor Ecommerce",
+    "name": "fahima/tigercommerce",
+    "description": "php and mysql based project",
     "type": "project",
+    "require": {
+        "jenssegers/date": "^4.0",
+        "intervention/image": "^3.8"
+    },
+    "license": "gnu gpl",
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
-        },
-        "files": [
-            "src/helpers.php"
-        ]
+            "Fahima\\Tigercommerce\\": "src/"
+        }
     },
     "authors": [
         {
-            "name": "Poly Batch GNSL 2024",
-            "email": "asamamun.web@gmail.com"
+            "name": "Fahima Alo",
+            "email": "fahimaalo223@gmail.com"
         }
-    ],
-    "require": {
-        "nesbot/carbon": "^3.8",
-        "intervention/image": "^3.8"
-    }
+    ]
 }
